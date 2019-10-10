@@ -6,15 +6,24 @@ npm install -g tslint
 
 tslint --init --> in the root folder
 
-Overview of TypeScript: 
++++++++++++++++ Overview of TypeScript ++++++++++++++++++++++++++ 
 a. Superset of JavaScript 
 b. Built by Microsoft
 c. Compiles down to regular JavaScript 
 d. Tends to be less error prone 
 e. Lends to code readability and maintainability 
 
-Different Types of TsLint checks:
++++++++++++++++ Different Types of TsLint checks ++++++++++++++++++++++
 a. @ts-check --> Treat like a TypeScript File
 b. @ts-ignore 
 c. @ts-nocheck
 
++++++++++++++++ Github Refresher +++++++++++++++++
+git state . --> it is going to check all the files (modified, deleted, created) and get them ready to upload to Github
+
++++++++++++++++ Rest Operator Application ++++++++++
+function add3(...param1: number[]): number {
+    let result = 0; 
+    param1.forEach(num => result += num);
+    return result;
+}
