@@ -162,3 +162,5 @@ Data Structures + Algorithms = Programs
 ### Space Complexity
 1. Heap: It is where variables are stored 
 2. Stack: It is where we keep track of our function calls
+
+# Module 4 (How to solve Coding Problems)
