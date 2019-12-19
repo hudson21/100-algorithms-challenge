@@ -1,3 +1,8 @@
+# Which code is best ? 
+- [x] Readable 
+- [x] Memory --> Space Complexity
+- [x] Speed --> Time Complexity
+
 # Module 2 (Getting the Interview)
 
 `If you never asks, the answer is always no`
@@ -96,13 +101,64 @@ Your website or any public profilelink
 ### What is a good code ?
 1. Readable
 2. Scalable --> Big O --> Code that can scale
+   - Speed (How fast is our runtime in the code)
+   - Memory ()
 
 ### Link to take a look about Big O
 - https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations
 
-### Types of Big O Notations
-1. O(n) Linear Time --> If the input increases, the number of operations 
+### Types of Big O Notations (** Basic Ones)
+** 1. O(1) Constant Time --> If the input increases, there is only one operation
+no matter what. [No Loops]
+
+** 2. O(n) Linear Time --> If the input increases, the number of operations 
 increase too. [for loops, while loops through n items]
 
-2. O(1) Constant Time --> If the input increases, there is only one operation
-no matter what. [No Loops]
+** 3. O(n^2) Quadratic Time --> Every element in a collection needs to be compared to ever other element. [Two nested Loops]
+
+4. O(2^n) Exponential Time --> [Recursive algorithms] that solves a problem of size N
+
+5. O(n!) Factorial Time --> You are adding a loop for every element
+
+6. O(log N) Logarithmic Time --> Usually searching algorithms have `log n` if they are sorted (Binary Search)
+
+7. O(n * log(n)) Log Linear Time --> Usually sorting operations
+
+### Rule Book 
+1. Worst Case: Always care what is the worst case scenario in yout algorithm sequence.
+2. Remove Constants: Always get rid of the contstants incorporated in your final calculation. o(2n) ---> O(n)
+3. Different terms for inputs: Analyze how the inputs are being used to determine the time complexity (Hints to take care in the algorithm)
+```
+Different inputs should have different varaibles. O(a + b) A and B arrays nested would be O(a * b)
+    + for steps in order
+    * for nested steps
+```
+4. Drop Non Dominants: It means to get rid of the time complexity which is not having a huge impact in the operations related with its inputs: O(n + n^2) --> O(n^2)
+
+### Algorithm Hints
+1. Iterating through half a collection is still O(n)
+2. Two separate collections: O(a + b)
+3. Nested Collections: O(a * b)
+
+### What can cause time in a function?
+1. Operations (+, -, *, /)
+2. Comparisons (<, >, ==)
+3. Looping (for, while)
+4. Outside Funtion call (function())
+
+### What causes Space complexity ?
+1. Variables 
+2. Data Structures
+3. Function Call 
+4. Allocations
+
+
+### Hints to take care in an algorithm
+1. Identations which are at the same level: It is a [+]
+2. Identations which are nested are: [*]
+
+Data Structures + Algorithms = Programs
+
+### Space Complexity
+1. Heap: It is where variables are stored 
+2. Stack: It is where we keep track of our function calls
