@@ -246,4 +246,6 @@ if the input arrives as a stream`. `This is a common follow-up question at Googl
 - [x] Low Space Complexity --> Recursion can cause stack overflowm copying of large arrays may exceed memory of machine 
 
 # Module 5 (Data Structure Introduction)
+- What is a Data Structure ?: A collection of values 
+- Algorithms - Serie of processess to implements these data structures.
 
