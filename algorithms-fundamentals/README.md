@@ -94,6 +94,8 @@ Your website or any public profilelink
 
 # Module 3 (Big O Notation)
 
+- [Big O Cheat Sheet](https://www.bigocheatsheet.com)
+
 ### Tools to be used during the course
 1. https://repl.it
 2. https://glot.io
@@ -283,6 +285,16 @@ of the memory with the new index included. Therefore the time complexity in this
 1. Reference Type: It is created by the programmer when we are creating a non-primitive type (in this case an object)
 2. Context: In the browser, the window object is the same as `this`. Insise of a class refers to the class itself.
 3. Instantiation: It is when you make a copy of an existing object and resuse the code.
+
+### Pros and Cons at using Arrays as Data Structures
+- [X] Fast Lookups
+- [X] push/pop
+- [X] Ordered (It mean in memory)
+- [] Slow Inserts
+- [] Slow Deletes
+- [] Fixed Size(if using static array)
+
+# Module 7 (Hash Tables)
 
 
 

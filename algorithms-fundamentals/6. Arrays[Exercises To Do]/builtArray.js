@@ -14,6 +14,11 @@ class MyArray {
         return this.length;
     }
 
+    unshift(item){
+        this.moveItems();
+        this.data[0] = item;
+    }
+
     pop() {
         const lastItem = this.data[this.length - 1];
         delete this.data[this.length - 1];
@@ -24,6 +29,13 @@ class MyArray {
     delete(index) {
         const item = this.data[index];
         this.shiftItems(index);
+    }
+
+    moveItems() {
+        for (let i = 1; i < this.length + 1; i++) {
+            this.data[i] = this.data[i-1];
+        }
+        this.length++;
     }
 
     shiftItems(index) {
@@ -44,4 +56,5 @@ newArray.delete(1);
 newArray.push('You');
 newArray.push('are');
 newArray.push('funny');
+newArray.unshift('Baby,')
 console.log(newArray);
