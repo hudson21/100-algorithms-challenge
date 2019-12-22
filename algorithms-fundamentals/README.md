@@ -290,9 +290,9 @@ of the memory with the new index included. Therefore the time complexity in this
 - [X] Fast Lookups
 - [X] push/pop
 - [X] Ordered (It mean in memory)
-- [] Slow Inserts
-- [] Slow Deletes
-- [] Fixed Size(if using static array)
+- [ ] Slow Inserts
+- [ ] Slow Deletes
+- [ ] Fixed Size(if using static array)
 
 # Module 7 (Hash Tables)
 
