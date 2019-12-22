@@ -249,3 +249,40 @@ if the input arrives as a stream`. `This is a common follow-up question at Googl
 - What is a Data Structure ?: A collection of values 
 - Algorithms - Serie of processess to implements these data structures.
 
+### How computers stores data ?
+1. CPU
+2. RAM(Random Access Memory)
+3. Storage
+- [Link to see a video about RAM](https://www.youtube.com/watch?v=fpnE6UAfbtU)
+- [Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
+
+### Operations in Data Strutures
+1. Insertion 
+2. Traversal
+3. Deletion 
+4. Searching 
+5. Sorting
+6. Access
+
+# Module 6 (Arrays)
+
+### Array
+1. lookup() --> O(1)
+2. push() --> O(1) [It can be O(n) if it is a *dynamic array*]
+3. insert() --> O(n)
+4. delete() --> O(n)
+
+### Static vs Dynamic Arrays
+- Static: An array with a declared size since the beginning
+- Dynamic: An array with no size that grows depending its size
+
+- Hint: In dynamic arrays if a new index is added, the array will be created in another location
+of the memory with the new index included. Therefore the time complexity in this case is O(n)
+
+### Optional Video about Classes
+1. Reference Type: It is created by the programmer when we are creating a non-primitive type (in this case an object)
+2. Context: In the browser, the window object is the same as `this`. Insise of a class refers to the class itself.
+3. Instantiation: It is when you make a copy of an existing object and resuse the code.
+
+
+
