@@ -79,7 +79,7 @@ Your website or any public profilelink
 
 ### Websites to look for jobs
 1. Linkedin
-2. Heckernews who is hiring
+2. Hackernews who is hiring
 3. (Startups) AngelList
 4. (Remote Jobs) https://weworkremotely.com 
 5. https://www.hired.ca
@@ -237,6 +237,9 @@ if the input arrives as a stream`. `This is a common follow-up question at Googl
 
 ### Example Google Coding Interview
 - Watch the youttube video of [How to: Work at Google -- Example Coding/Engineering Interview](https://www.youtube.com/watch?v=XKu_SEDAykw)
+- [Google Application Process Step By Step](https://www.youtube.com/watch?v=oWbUtlUhwa8)
+
+
 
 ### Good code checklist
 - [x] It works
@@ -257,6 +260,15 @@ if the input arrives as a stream`. `This is a common follow-up question at Googl
 3. Storage
 - [Link to see a video about RAM](https://www.youtube.com/watch?v=fpnE6UAfbtU)
 - [Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
+
+### Heuristics to ace the question
+1. Hash Tables  are usually the answer to improve `Time Complexity`
+2. If it's a sorted array, use Binary tree to achieve `O(log N)`. Divide and Conquer - Divide a data set into smaller chunks and then repeating a process with a subset of data. Binary Search is a great example of this.
+3. Try sorting your input
+4. Hash Tables and precomputed information (i.e sorted) are some of the best ways to optimize your code.
+5. Look at the Time vs Space tradeoff. Sometimes sorting extra state in memory can help the time. (Runtime)
+6. If the interviewer is giving you advice/tips/hints. Follow them. 
+7. Space time tradeoffs: Hashtables usually solve this a lot of times. You use more space, but you can get a time optimization to the process. In programming, you often times can use up a little bit more space to get faster time. 
 
 ### Operations in Data Strutures
 1. Insertion 
@@ -295,6 +307,40 @@ of the memory with the new index included. Therefore the time complexity in this
 - [ ] Fixed Size(if using static array)
 
 # Module 7 (Hash Tables)
+- Idempotent: A function, given an input always output the same result. 
+
+### Operations in Hash Tables
+1. insert --> O(1)
+2. lookup --> o(1) [Can be O(n) if there is hash collision]
+3. delete --> O(1)
+4. search --> O(1)
+
+- [Hash Tables Review](https://en.wikipedia.org/wiki/Hash_table)
+- [Hash Tables Animation](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html)
+
+### Hash Collisions can be handle with:
+1. LinkedList (Separate Chaining)
+
+### Hash Tables vs Arrays
+```
+      Arrays             Hash Tables
+------------------------------------------
+      search O(n)         search O(1)
+      lookup O(1)         insert O(1)
+      push O(1)           lookup O(1)
+      insert O(n)         delete O(1)
+      delete O(n)
+------------------------------------------
+
+```
+### Pros and Cons of Hash Tables
+- [X] Fast Lookups (*Good collision resolution needed)
+- [X] Fast Inserts
+- [X] Flexible Keys 
+- [ ] Unordered
+- [ ] Slow Key Iteration 
+
+# Module 8 (Linked Lists)
 
 
 
