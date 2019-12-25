@@ -341,6 +341,31 @@ of the memory with the new index included. Therefore the time complexity in this
 - [ ] Slow Key Iteration 
 
 # Module 8 (Linked Lists)
+- [Linked Lists Playground](https://visualgo.net/en/list)
+
+### Main advantage of Linked Lists
+- There is no need to shift indexes once an item is inserted at anywhere  of the LinkedList
+
+### Difference between Array and Linked Lists 
+- In an array the elements are index
+- In a linkedList you start from the head and traverse the list until you get to an specific index.
+
+### Big O Linked Lists
+1. prepend O(1) --> Add to the beginning of a Linked List
+2. append O(1)
+3. lookup O(n)
+4. insert O(n)
+5. delete O(n)
+
+### Single vs Double Linked Lists
+- Single: 
+  - [X] Requires less memory because the prev property is not implemented
+  - [X] It cant be iterated in reverse (from back to front)
+  - [X] When you want to make fast insertion and deletion
+- Double:
+  - [X] It can be iterated from the front to the back and viseverce
+
+- Need to see the video 8.18 about reversing a linkedlist with javascript (reverse method in linkedList.js)
 
 
 
