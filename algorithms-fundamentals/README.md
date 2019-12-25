@@ -3,6 +3,9 @@
 - [x] Memory --> Space Complexity
 - [x] Speed --> Time Complexity
 
+# Doubts in the Course
+- Need to see the video 8.18 about reversing a linkedlist with javascript (reverse method in linkedList.js)
+
 # Module 2 (Getting the Interview)
 
 `If you never asks, the answer is always no`
@@ -365,7 +368,30 @@ of the memory with the new index included. Therefore the time complexity in this
 - Double:
   - [X] It can be iterated from the front to the back and viseverce
 
-- Need to see the video 8.18 about reversing a linkedlist with javascript (reverse method in linkedList.js)
+### Pros and Cons of Linked Lists
+- [X] Fast Insertion
+- [X] Fast Deletion
+- [X] Ordered
+- [X] Flexible Size
+- [ ] Slow Lookup 
+- [ ] More Memory
 
+### Arrays vs Linked Lists
+- [Arrays vs Linked Lists - Computerphile](https://www.youtube.com/watch?v=DyG9S9nAlUM)
+
+# Module 9 (Stacks and Queues)
+- Linear data structures (Go to data elements sequentionally)
+
+### Stacks (LIFO --> Last In First Out) 
+1. Lookup --> O(n)
+2. pop --> O(1)
+3. push --> O(1)
+4. peek --> O(1) View the top in the pile
+
+### Queues (FIFO --> First Int First Out)
+1. Lookup --> O(n)
+2. enqueue(push) --> O(1)
+3. dequeue(pop but takes the first element in line) --> O(1)
+4. peek --> O(1)
 
 
