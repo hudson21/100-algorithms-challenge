@@ -94,6 +94,7 @@ Your website or any public profilelink
 11. https://remoteok.io/
 12. https://www.ziprecruiter.com/
 13. (Example to look in Google for recruiter) --> site:linkedin.com facebook recruiter
+14. [This one looks really great!!!](https://go.beseen.com/tech-jobs/?click_id=27049635a5b046fb84a521b6ef33d630&sid=aff_Zero+To+Mastery-linkedin&kw=group&utm_source=linkedin&utm_medium=group&utm_campaign=feedback&utm_creativetype=post&utm_geotarget=)
 
 # Module 3 (Big O Notation)
 
@@ -382,16 +383,52 @@ of the memory with the new index included. Therefore the time complexity in this
 # Module 9 (Stacks and Queues)
 - Linear data structures (Go to data elements sequentionally)
 
-### Stacks (LIFO --> Last In First Out) 
+### Stacks (LIFO --> Last In First Out) (Arrays are the chosen one)
 1. Lookup --> O(n)
 2. pop --> O(1)
 3. push --> O(1)
 4. peek --> O(1) View the top in the pile
 
-### Queues (FIFO --> First Int First Out)
+### Queues (FIFO --> First Int First Out) (Linked Lists are the chosen one)
 1. Lookup --> O(n)
 2. enqueue(push) --> O(1)
 3. dequeue(pop but takes the first element in line) --> O(1)
 4. peek --> O(1)
+
+### How does JavaScript work ? 
+1. What is a Program
+   - Allocate memory
+   - parse and execute
+
+2. JavaScript Engine
+   - Memory Heap 
+   - Call Stack
+
+3. Memory Leak: The process of having variables declared but not using them. Therefore this declarations remain in 
+the `Memory Heap` occupying unnecesary space 
+
+4. JavaScript Run-Time Environment 
+
+```
+// Call Stack
+console.log(1);
+
+setTimeout(() => {
+  console.log('2');
+}, 2000)
+
+console.log(3);
+
+// Web API
+setTimeout(), In 2 seconds you have to do something
+
+// Callback Queue
+callback() (Inside of the setTimeout)
+// Event Loop
+
+
+```
+
+
 
 
