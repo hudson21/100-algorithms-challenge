@@ -425,9 +425,37 @@ setTimeout(), In 2 seconds you have to do something
 // Callback Queue
 callback() (Inside of the setTimeout)
 // Event Loop
-
-
 ```
+
+### Pros and Cons of Stacks and Queues
+- [X] Fast Operations
+- [X] Fast Peek 
+- [X] Ordered 
+- [ ] Slow Lookup
+
+# Module 10 (Trees)
+
+### Binary Tree (Rules)
+- Each noce can only have either 0, 1 or 2 nodes.
+- Each child can only have one parent.
+
+### Binary Search Tree Operations
+1. lookup --> O(log N)
+2. insert --> O(log N)
+3. delete --> O(log N)
+
+### Binary Search Tree (Playground)
+- [Website to play with Binary Search Trees](https://visualgo.net/bn/bst?slide=1)
+- Hint() --> O(Long N): Take as reference looking for a number in a phone book. You start from a specific letter until you find 
+the right number inside of that letter group.
+
+### Pros and Cons of BST(Binary Search Tree)
+- [X] Better than O(n)
+- [X] Ordered
+- [X] Flexible Size
+- [ ] No O(1) operations
+
+
 
 
 
