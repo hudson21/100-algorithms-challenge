@@ -455,6 +455,15 @@ the right number inside of that letter group.
 - [X] Flexible Size
 - [ ] No O(1) operations
 
+### AVL Trees && Red Black Trees
+- AVL Trees 
+  - [Animation](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
+  - [How it works](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
+
+- Red Black Trees 
+  - [Animation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+  - [How it works](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
+
 
 
 
