@@ -14,6 +14,7 @@ class BinarySearchTree {
   constructor(){
     this.root = null;
   }
+
   insert(value){
     const newNode = new Node(value);
     if (this.root === null) {
@@ -39,6 +40,7 @@ class BinarySearchTree {
       }
     }
   }
+  
   lookup(value){
     if (!this.root) {
       return false;

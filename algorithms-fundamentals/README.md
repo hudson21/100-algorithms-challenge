@@ -459,10 +459,48 @@ the right number inside of that letter group.
 - AVL Trees 
   - [Animation](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
   - [How it works](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
+  - Require heights of left and right children of every node to differ by at most +1
 
 - Red Black Trees 
   - [Animation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
   - [How it works](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
+
+### Binary Heap Operations
+- [Animation](https://visualgo.net/en/heap)
+
+1. lookup --> O(n)
+2. insert --> O(log N)
+3. delte --> O(log N)
+
+- Every node on the top level has a value greater than the next level down.
+
+### Priority Queue
+- It is a type of data structure where each element hast a priority. Elements with a higher priority are
+served before elements with lower priorities.
+- [Implementation of a Priority Queue](https://www.geeksforgeeks.org/implementation-priority-queue-javascript/)   
+
+### Pros and Cons of Binary Heaps 
+- [X] Better than O(n)
+- [X] Priority
+- [X] Flexible Size
+- [X] Fast Insert
+- [ ] Slow lookup 
+
+### Trie or Prefix Tree --> O (legth of the word)
+
+- It is a specialized tree used in searching, most often with text
+
+# Module 11 (Graphs)
+- [The Internet Map](https://internet-map.net/)
+- [Animation](https://visualgo.net/en/graphds?slide=1)
+
+### Types of Graphs
+1. Directed Graphs
+2. Undirected Graphs
+3. Unweighted 
+4. Weighted
+5. Cyclic
+6. Acyclic
 
 
 
