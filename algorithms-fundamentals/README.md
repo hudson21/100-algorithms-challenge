@@ -510,8 +510,49 @@ served before elements with lower priorities.
 - Recursion: It is a function that refers to itself inside of the same function.
 - Recursion is good for tasks that have repeated subtasks to do.
 
+### Recursion vs Iterative
+- Hint: Anything you do with a recursion, CAN be done iteratively (loop)
 
+### Pros and Cons of Recursion
+- [X] DRY (Do Not Repeat Yourself)
+- [X] Readability
+- [ ] Large Stack
 
+- Tail Call Optimization: ES6 --> It allows recursion to be called without increasing the call stack
 
+### When to use Recursion
+- Traversing Trees
+- Searching through Trees or Graphs
 
+### Recursion Rules
+1. Every time you are using a tree or converting something into a tree, consider recursion.
+   - Divided into a number of subproblems that are smaller instances of the same problem. 
+   - Each instance of the subproblem is identical in nature. 
+   - The solutions of each subproblem can be combined to solve the problem at hand.
+2. Divide and Conque using Recursion.
 
+### Real World Example to Apply Recursion
+```
+There are lots of mathy examples here, but you wanted a real world example, so with a bit of thinking, this is possibly the best I can offer:
+
+You find a person who has contracted a given contageous infection, which is non fatal, and fixes itself quickly( Type A) , Except for one in 5 people ( We'll call these type B ) who become permanently infected with it and shows no symptoms and merely acts a spreader.
+
+This creates quite annoying waves of havoc when ever type B infects a multitude of type A.
+
+Your task is to track down all the type Bs and immunise them to stop the backbone of the disease. Unfortunately tho, you cant administer a nationwide cure to all, because the people who are typeAs are also deadly allergic to the cure that works for type B.
+
+The way you would do this, would be social discovery, given an infected person(Type A), choose all their contacts in the last week, marking each contact on a heap. When you test a person is infected, add them to the "follow up" queue. When a person is a type B, add them to the "follow up" at the head ( because you want to stop this fast ).
+
+After processing a given person, select the person from the front of the queue and apply immunization if needed. Get all their contacts previously unvisited, and then test to see if they're infected.
+
+Repeat until the queue of infected people becomes 0, and then wait for another outbreak..
+
+( Ok, this is a bit iterative, but its an iterative way of solving a recursive problem, in this case, breadth first traversal of a population base trying to discover likely paths to problems, and besides, iterative solutions are often faster and more effective, and I compulsively remove recursion everywhere so much its become instinctive. .... dammit! )
+```
+
+# Module 13 (Sorting)
+1. Bubble Sort 
+2. Insertion Sort 
+3. Selection Sort 
+4. Merge Sort 
+5. Quick Sort
