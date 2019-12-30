@@ -152,14 +152,7 @@ Different inputs should have different varaibles. O(a + b) A and B arrays nested
 3. Looping (for, while)
 4. Outside Funtion call (function())
 
-### What causes Space complexity ?
-1. Variables 
-2. Data Structures
-3. Function Call 
-4. Allocations
-
-
-### Hints to take care in an algorithm
+### Hints to take care about in an algorithm
 1. Identations which are at the same level: It is a [+]
 2. Identations which are nested are: [*]
 
@@ -168,6 +161,12 @@ Data Structures + Algorithms = Programs
 ### Space Complexity
 1. Heap: It is where variables are stored 
 2. Stack: It is where we keep track of our function calls
+
+### What causes Space complexity ?
+1. Variables 
+2. Data Structures
+3. Function Call 
+4. Allocations
 
 # Module 4 (How to solve Coding Problems)
 ### What are Companies looking for ?
@@ -501,6 +500,15 @@ served before elements with lower priorities.
 4. Weighted
 5. Cyclic
 6. Acyclic
+
+### Pros and Cons of Graphs
+- [X] Relationships
+- [ ] Scaling is hard
+
+# Module 12 (Recursion)
+- Algorithms: They are steps in a process to perfom a desired action by computers.
+- Recursion: It is a function that refers to itself inside of the same function.
+- Recursion is good for tasks that have repeated subtasks to do.
 
 
 

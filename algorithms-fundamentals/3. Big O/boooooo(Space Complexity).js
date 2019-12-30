@@ -14,4 +14,4 @@ function arrayOfHiNTimes(n) {
     return hiArray;
 }
 
-console.log(arrayOfHiNTimes(6)); // O(n)
+console.log(arrayOfHiNTimes(6)); // Space Complexity --> O(n)
