@@ -550,9 +550,26 @@ Repeat until the queue of infected people becomes 0, and then wait for another o
 ( Ok, this is a bit iterative, but its an iterative way of solving a recursive problem, in this case, breadth first traversal of a population base trying to discover likely paths to problems, and besides, iterative solutions are often faster and more effective, and I compulsively remove recursion everywhere so much its become instinctive. .... dammit! )
 ```
 
-# Module 13 (Sorting)
+# Module 13 (Sorting) --> O(N log N)
 1. Bubble Sort 
 2. Insertion Sort 
 3. Selection Sort 
 4. Merge Sort 
 5. Quick Sort
+
+- [localCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+- [MDN Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [Sorting Animations](https://www.toptal.com/developers/sorting-algorithms)
+- [Dancing Algorithms to see](https://www.youtube.com/user/AlgoRythmics/videos)
+
+### Bubble Sort --> O(n^2)
+
+### Selection Sort --> O(n^2)
+
+### Insertion Sort --> O(n^2) but it some cases O(n)
+- If the indexes are almost sorted, You need to use insertion sort
+
+### Merge Sort --> O(N log N) |
+                              |---------> Divide and Conquer
+### Quick Sort --> O(N log N) |
+
