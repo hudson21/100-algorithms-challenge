@@ -562,14 +562,111 @@ Repeat until the queue of infected people becomes 0, and then wait for another o
 - [Sorting Animations](https://www.toptal.com/developers/sorting-algorithms)
 - [Dancing Algorithms to see](https://www.youtube.com/user/AlgoRythmics/videos)
 
-### Bubble Sort --> O(n^2)
+```
+  Bubble Sort --> O(n^2)
 
-### Selection Sort --> O(n^2)
+  Selection Sort --> O(n^2)
 
-### Insertion Sort --> O(n^2) but it some cases O(n)
+  Insertion Sort --> O(n^2) but it some cases O(n)
 - If the indexes are almost sorted, You need to use insertion sort
 
-### Merge Sort --> O(N log N) |
-                              |---------> Divide and Conquer
-### Quick Sort --> O(N log N) |
+  Merge Sort --> O(N log N) |
+                            |---------> Divide and Conquer
+  Quick Sort --> O(N log N) |
+
+```
+
+- [Stable vs Unstable Algorithms](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
+
+### When to use a determined Sorting Algorithm
+
+1. Insertion Sort --> It can be used if your input is small or items are mostly sorted.
+2. Bubble Sort --> You are never gonna use this sorting algorithm. It is only used for educational purposes.
+3. Selection Sort --> You are never gonna use this sorting algorithm. It is only used for educational purposes.
+4. Merge Sort --> If you are worried about worst case scenarios, you should use this sorting algorithm.
+5. Quick Sort --> 
+
+```
+Comparison Sort          Non-Comparison Sort
+---------------          -------------------
+  Bubble Sort              Counting Sort 
+  Insertion Sort           Radix Sort
+  Selection Sort 
+  Merge Sort 
+  Quick Sort
+```
+
+### Radix Sort Resources
+- [Radix Sort](https://brilliant.org/wiki/radix-sort/)
+
+- [Radix Sort Animation](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html)
+
+### Counting Sort Resources
+- [Counting Sort](https://brilliant.org/wiki/counting-sort/)
+
+- [Counting Sort Animation](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html)
+
+- EcmaScript Standard uses Insertion Sort(For small data) and Merge Sort(For large data) in the Google Chrome Browser
+
+# Module 14 (Algorithms Searching + BFS + DFS)
+1. Linear Search --> O(n)
+2. Binary Search: If the data is sorted we can change from O(n) to O(log N) --> Divide and Conquer Approach 
+3. Depth First Search --> O(n) 
+4. Breadth First Search --> O(n) 
+
+### Breadth First Search/Traversal
+- It works by moving left to right: left ---> right
+```
+            1
+          /  \
+        2     3
+       / \   / \
+      4   5 6   7
+```
+
+### Depth First Search/Traversal
+- It works by moving top to bottom: top --> bottom 
+```
+            1
+          /  \
+        2     5
+       / \   / \
+      3   4 6   7
+```
+
+### BFS vs DFS
+- [Resources](https://stackoverflow.com/questions/9844193/what-is-the-time-and-space-complexity-of-a-breadth-first-and-depth-first-tree-tr)
+1. Breadth First Search: It will look for the closest nodes firstly.
+   - [X] Shortest Path
+   - [X] Closer Nodes
+   - [ ] More Memory
+   - The memory space is O(n) because we need to keep track of all the children nodes at every one it is visited.
+
+2. Depth First Search: 
+   - [X] Less Memory
+   - [X] Does Path Exist ?
+   - [ ] Can get Slow
+
+### Ways to implement DFS
+  1. inorder: 33, 101, 105
+  2. preorder: 101, 33, 105
+  3. postorder: 33, 105, 101
+
+```
+     101
+    /   \
+  33    105
+```
+
+- Real Example with a BST:
+```
+        9
+      /  \
+     4    20
+    / \   / \
+   1   6 15 170
+```
+- inorder: [1, 4, 6, 9, 15, 20, 170]
+- preorder: [9, 4, 1, 6, 20, 15, 170]
+- postorder: [1, 6, 4, 15, 170, 20, 9]
 
