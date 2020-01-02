@@ -642,7 +642,7 @@ Comparison Sort          Non-Comparison Sort
    - [ ] More Memory
    - The memory space is O(n) because we need to keep track of all the children nodes at every one it is visited.
 
-2. Depth First Search: 
+2. Depth First Search:  Space Complexity --> O(h) h: height of the tree
    - [X] Less Memory
    - [X] Does Path Exist ?
    - [ ] Can get Slow
@@ -670,3 +670,20 @@ Comparison Sort          Non-Comparison Sort
 - preorder: [9, 4, 1, 6, 20, 15, 170]
 - postorder: [1, 6, 4, 15, 170, 20, 9]
 
+### Graph Traversal
+- [BFS - DFS in Graphs](https://visualgo.net/en/dfsbfs)
+
+### Dijkstra + Bellman-Ford Algorithms (Shortest Path)
+- Bellman-Ford Algorithm: 
+  - Can handle weighted graphs with negative numbers
+  - Can take a long time to run
+  - It is not the most efficient algorithm
+  - The worst case of this algorithm is a time complexity of O(n^2)
+- Dijkstra Algorithm
+  - It is a little bit faster than Bellman-Ford Algorithm
+  - It is more efficienct but I can't handle negavite weighted graphs
+  - [How Dijkstra Algorithm Works](https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e)
+
+
+# Module 15 (Dynamic Programming)
+- 

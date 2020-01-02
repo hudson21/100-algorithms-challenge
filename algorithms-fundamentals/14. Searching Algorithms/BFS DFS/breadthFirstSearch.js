@@ -2,6 +2,12 @@
 //  4     20
 //1  6  15  170
 
+/*
+- inorder: [1, 4, 6, 9, 15, 20, 170]
+- preorder: [9, 4, 1, 6, 20, 15, 170]
+- postorder: [1, 6, 4, 15, 170, 20, 9]
+*/
+
 class Node {
   constructor(value){
     this.left = null;
@@ -179,6 +185,52 @@ class BinarySearchTree {
     }
     return this.breadthFirstSearchRecursive(queue, list);
   }
+
+  depthFirstSearchInOrder() {
+    return traverseInOrder(this.root, []);
+  }
+
+  depthFirstSearchPostOrder() {
+    return traversePostOrder(this.root, []);
+  }
+
+  depthFirstSearchPreOrder() {
+    return traversePreOrder(this.root, []);
+  }
+
+}
+
+function traverseInOrder(node, list) {
+  if (node.left) {
+    traverseInOrder(node.left, list);
+  }
+  list.push(node.value);
+  if (node.right) {
+    traverseInOrder(node.right, list);
+  }
+  return list;
+}
+
+function traversePreOrder(node, list) {
+  list.push(node.value);
+  if (node.left) {
+    traversePreOrder(node.left, list);
+  }
+  if (node.right) {
+    traversePreOrder(node.right, list);
+  }
+  return list;
+}
+
+function traversePostOrder(node, list) {
+  if (node.left) {
+    traversePostOrder(node.left, list);
+  }
+  if (node.right) {
+    traversePostOrder(node.right, list);
+  }
+  list.push(node.value);
+  return list;
 }
 
 function traverse(node) {
@@ -197,8 +249,11 @@ tree.insert(170)
 tree.insert(15)
 tree.insert(1)
 // console.log('lookup', tree.lookup(200));
-console.log(tree.breadthFirstSearch());
-console.log(tree.breadthFirstSearchRecursive([tree.root], []));
+// console.log(tree.breadthFirstSearch());
+// console.log(tree.breadthFirstSearchRecursive([tree.root], []));
 // console.log(JSON.stringify(traverse(tree.root)));
+console.log(tree.depthFirstSearchInOrder());
+console.log(tree.depthFirstSearchPreOrder());
+console.log(tree.depthFirstSearchPostOrder());
 
 
