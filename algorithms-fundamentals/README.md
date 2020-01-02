@@ -686,4 +686,17 @@ Comparison Sort          Non-Comparison Sort
 
 
 # Module 15 (Dynamic Programming)
-- 
+- It is an optimization technique
+- Do you have something you can cache ?
+
+### Steps to verify if a problem can used Memoization
+1. Can be divided into subproblem
+2. Recursive Solution 
+3. Are there repetitive subproblems ?
+4. Memoize subproblems 
+5. Demand a raise from your boss
+
+- There is one other way to apply dynamic programming called `Bottom up approachs`
+
+# Module 16 (Non Technical Interviews)
+
