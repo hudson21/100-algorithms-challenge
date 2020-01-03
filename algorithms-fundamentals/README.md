@@ -700,3 +700,62 @@ Comparison Sort          Non-Comparison Sort
 
 # Module 16 (Non Technical Interviews)
 
+### During the Interview
+- Treat everything as a learning experience
+  1. Can you do the job ? 
+  2. Can I work with you ? 
+  3. Are you going to improve ? 
+
+### 4 Heroes
+1. Technical: Have a story about a technical issue you had to face in your previous job 
+2. Success: It shows that you are a successful person. What things did you do to make a change happens in your 
+previous jobs ?
+3. Leadership: You are a person that can have intuition about other things to do to go beyond the normal things.
+4. Challenge: A technical challenge that you faced in one of your previous jobs.
+
+### Tell me about yourself ?
+- Your triggers of success
+- Mention things you want to get asked
+- Skills should be relevant to job
+
+### Why Us ?
+- Show you want to grow
+- Demonstrate why you are the best
+
+### Why did you leave your job ?
+- No negativity
+
+### Tell me about a problem + how you solved it 
+- Have this prepared
+- Have metrics and numbers
+- Scaling, performance, security
+- SAR (Situation, Action, Result)
+
+### Tell me about an interesting project
+- Show how you are different
+- Relate it to this job
+
+### What is your biggest weakness ?
+- Real answer
+- Show how you improved it
+
+### Do you have any questions for me ? 
+- Focus on them, not company (You)
+- Mention something they mentioned
+
+- [Questions to ask to the company to show interest](https://github.com/viraptor/reverse-interview)
+
+### Secret Weapon
+- Simplicity over Complexity (Readable)
+- Premature optimization is the root of all evil
+- Overall goal, not myopic(Very focused about only one problem)
+- No complaining about client/code/etc
+- No ego
+
+### After the interview
+- Don't overuse `I`
+- Talk about the interviewer
+- Express how you are the ideal candidate
+- Don't brag()
+
+# Module 17 (Offer + Negotiation)
