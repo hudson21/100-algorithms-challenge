@@ -86,7 +86,7 @@ Your website or any public profilelink
 3. (Startups) AngelList
 4. (Remote Jobs) https://weworkremotely.com 
 5. https://www.hired.ca
-6. https://www.triplebyte.com
+6. [TripleByte is very recommended by Andrei](https://triplebyte.com/a/Y4uPkgU/d)
 7. https://www.whitetruffle.com
 8. https://www.meetup.com
 9. https://designmodo.com/jobs/
@@ -759,3 +759,49 @@ previous jobs ?
 - Don't brag()
 
 # Module 17 (Offer + Negotiation)
+
+### Negotiation 101
+- Don't end the conversation (Average Salary for Software Engineer)
+```
+I see in the silicon valley area the salaries for senior developers starts at X. I think this is 
+a great starting point to discuss about it.
+```
+- Give reason for everything
+- Always negotiate
+- Be positive 
+- Have stakes(means you have to have something on the line)(Alternatives)
+
+### Handling an offer
+- Don't end the conversation: Talk about possible offers with another companies
+- Be positive
+- Ask for time
+- Let other companies now
+
+### To Do 
+- Find exact salary you want
+- What value do you provide ?
+- Go higher
+
+### Websites to checkout salaries
+- [Salary](https://www.salary.com/)
+- [Glassdoor](https://www.glassdoor.com/member/home/index.htm)
+- [PayScale](https://www.payscale.com/)
+- [Stack Overflow](https://stackoverflow.com/jobs/salary?utm_source=Iterable&utm_medium=email&utm_campaign=salary-calculator-2018)
+
+### Handling Multiple Offers
+1. Is there an offer that you feel you are under qualified for ? 
+2. Long term growth potential 
+3. Wil you respect people around you ? 
+4. Salary and benefits ?
+5. is your decision based on desperation ?
+
+### Getting a raise
+1. Ask for a raise 
+2. Show. Don't tell. (Summarize all the actions you have done during a determined time to show to your
+employer how many great changes you have doned, saved money, good feedback. Keep track of your enhancements 
+from the first day you entered).
+3. [How to negotiate your salary](https://www.youtube.com/watch?v=XY5SeCl_8NE&feature=youtu.be) 
+
+### Advent of Code
+- Checkout Advent of Code contest in Google (It is made every december of the year)
+- [ZTM Coding Challenges](https://zerotomastery.io/community/?utm_source=udemy&utm_medium=coursecontent)
